@@ -11,6 +11,8 @@ import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+// 이 어노테이션은 각 빈의 싱글톤을 보장해준다
+// 없을 경우, bean 등록은 되지만 싱글톤을 보장해주지 않는다
 @Configuration
 public class AppConfig {
 
